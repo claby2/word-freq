@@ -1,0 +1,88 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    scroll-behavior: smooth;
+    background-color: #3A7CA5;
+}
+
+.header {
+    color: #D9DCD6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    color: #D9DCD6;
+    width: 40vw;
+    align-items: center;
+}
+
+#list{
+    list-style: none;
+    padding: 0;
+}
+
+#list li {
+    font-weight: 400;
+    color: #D9DCD6;
+    font-size: 2em;
+}
+
+#input-id {
+    resize: none;
+    height: 20vh;
+    width: 50vw;
+}
+
+#submit-id {
+    user-select: none;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    background-color:#16425B;
+    border: none;
+    color:#D9DCD6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size:15px; 
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadein 0.2s linear 1 normal forwards;
+    transition: 0.15s;
+}
+
+#submit-id:hover {
+    margin-top:32px;
+    margin-bottom:30px;
+    cursor: pointer;
+}
+
+.header-inner h1 {
+    font-weight: 400;
+    color: #D9DCD6;
+    font-size: 4em;
+}
+
+#output {
+    text-align: center;
+    align-items: left;
+}
+
+/* .header-inner h3 {
+    font-weight: 300;
+    color: #D9DCD6;
+    font-size: 1.4em;
+} */
