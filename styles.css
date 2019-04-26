@@ -95,8 +95,16 @@ body {
 
 .search {
     margin-bottom: 3vh;
+
 }
 
 #search-id {
     font-family: 'Inter var', sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+    .output, .output-box {
+        text-align: center;
+        align-items: center;
+    }
 }
