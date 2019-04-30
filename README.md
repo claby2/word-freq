@@ -13,4 +13,4 @@ The following is what the top part, the most frequent appearing words, would be 
 of	6
 far	4
 and	4
-blind	4](https://imgur.com/a/CBBzo8V)
+blind	4](https://github.com/claby2/word-freq/blob/master/images/readme-display.png)
