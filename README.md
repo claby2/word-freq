@@ -14,3 +14,8 @@ of	6
 far	4
 and	4
 blind	4](https://github.com/claby2/word-freq/blob/master/images/readme-display.png)
+
+# How it works
+The website is mainly back-end reliant. It mostly utilizes JS. The program starts by getting rid of any punctuation as to avoid counting *example.* and *example* as two seperate words. Instead, these two words would be under the word category of *example* and have a frequency of 2 in this example. 
+
+The website also features a live search feature. Once an output is shown after an input is sent, the user is able to search for certain words to find out its frequency. As you type, the code would parse through the words list and display words which correspond to the search input. The reason it is labelled as 'live' is that every time it detects a key press, it would register to find the entry. 
